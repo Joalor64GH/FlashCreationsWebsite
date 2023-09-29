@@ -333,3 +333,7 @@ ul li{
 		margin:30px;
 	}
 }
+
+#disqus_thread {
+	margin: 0 40px;
+}
