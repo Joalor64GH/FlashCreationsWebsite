@@ -6,17 +6,33 @@
 	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
 	<link rel="icon" href="../favicon.png" type="image/x-icon">
 	<link rel="stylesheet" href="game.css" type="text/css" />
+	<!--
     <script type="text/javascript" src="swfobject.js"></script>
 	<script type="text/javascript">
 		swfobject.embedSWF("https://raw.githubusercontent.com/Joalor64GH/Flash-Creations/main/swf/theplatformergamedemo.swf", "game", "550", "400", "8.0.0");
 	</script>
+	-->
 </head>
 <body>
 
 <h1>The Platformer Game™ (DEMO)</h1>
+<script type="text/javascript" src="ruffle.js"></script>
+<script type="text/javascript">
+    window.RufflePlayer = window.RufflePlayer || {};
+
+    window.addEventListener("DOMContentLoaded", () => {
+        let ruffle = window.RufflePlayer.newest();
+        let player = ruffle.createPlayer();
+        let container = document.getElementById("container");
+        container.appendChild(player);
+        player.load("https://raw.githubusercontent.com/Joalor64GH/Flash-Creations/main/swf/theplatformergamedemo.swf");
+    });
+</script>
+<!--
 <div id="game">
     This game requires a newer version of <a href="https://tinyurl.com/2mjz7hbt">Adobe Flash Player</a>.
 </div>
+-->
 <p>
 It's a demo!
 </p>
