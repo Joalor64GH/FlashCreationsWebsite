@@ -1,5 +1,5 @@
 # Flash Creations
-Stuff I made with Macromedia Flash 8.
+A little website showing stuff I made with Macromedia Flash 8.
 
 ## Downloads
 Macromedia Flash 8: https://tinyurl.com/5yhnw59r <br>
